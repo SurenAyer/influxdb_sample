@@ -1,0 +1,73 @@
+Customer
+private int customerID;
+private String customerName;
+
+Segment
+private int segmentId;
+private String segmentName;
+
+Product
+private int productId;
+private String productName;
+private float productBaseMargin;
+private float unitPrice;
+
+category
+private int categoryId;
+private String categoryName;
+
+sub-category
+private int subCategoryId;
+private String subCategoryName;
+
+container
+private int containerId;
+private String containerName;
+
+order
+private int orderId;
+private Date orderDate;
+private boolean returnStatus;
+
+order_product
+private int order_productId;
+private int quantity;
+private float discount;
+private float profit;
+private float sales;
+
+priority
+private int priorityId;
+private String priorityName;
+
+shipment
+private int shipmentId;
+private float shippingCost;
+private Date shipDate;
+
+shipmode
+private int shipModeId;
+private String shipModeName;
+
+Address
+private int addressId;
+private int postalCode;
+
+city
+private int cityId;
+private String cityName;
+
+state
+private int stateId;
+private String stateName;
+
+region
+private int regionId;
+private String regionName;
+
+
+manager
+private int managerId;
+private String managerName;
+
+
